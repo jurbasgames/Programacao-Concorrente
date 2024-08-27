@@ -1,0 +1,32 @@
+~/ProgConc$ ./prod_sequencial 100 vetor100.bin
+~/ProgConc$ ./checar_prod vetor100.bin
+Tamanho do vetor: 100
+Produto interno: 2560336.117872
+~/ProgConc$ ./prod_concorrente vetor100.bin 2
+Produto interno sequencial:  2560336.11787223815917968750000000
+Produto interno concorrente: 2560336.11787223815917968750000000
+Erro relativo:               0.00000000000000000000000000
+~/ProgConc$ ./prod_concorrente vetor100.bin 4
+Produto interno sequencial:  2560336.11787223815917968750000000
+Produto interno concorrente: 2560336.11787223815917968750000000
+Erro relativo:               0.00000000000000000000000000
+~/ProgConc$ ./prod_concorrente vetor100.bin 8
+Produto interno sequencial:  2560336.11787223815917968750000000
+Produto interno concorrente: 2560336.11787223815917968750000000
+Erro relativo:               0.00000000000000000000000000
+~/ProgConc$ ./prod_sequencial 1000 vetor1000.bin
+~/ProgConc$ ./checar_prod vetor1000.bin
+Tamanho do vetor: 1000
+Produto interno: 28261578.523081
+~/ProgConc$ ./prod_concorrente vetor1000.bin 2
+Produto interno sequencial:  28261578.52308082580566406250000000
+Produto interno concorrente: 28261578.52308082580566406250000000
+Erro relativo:               0.00000000000000000000000000
+~/ProgConc$ ./prod_concorrente vetor1000.bin 4
+Produto interno sequencial:  28261578.52308082580566406250000000
+Produto interno concorrente: 28261578.52308082580566406250000000
+Erro relativo:               0.00000000000000000000000000
+~/ProgConc$ ./prod_concorrente vetor1000.bin 8
+Produto interno sequencial:  28261578.52308082580566406250000000
+Produto interno concorrente: 28261578.52308082580566406250000000
+Erro relativo:               0.00000000000000000000000000
